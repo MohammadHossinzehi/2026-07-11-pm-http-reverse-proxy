@@ -1,0 +1,15 @@
+{
+  "name": "http-reverse-proxy-lb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A from-scratch HTTP/1.1 reverse proxy and load balancer built directly on raw TCP sockets.",
+  "main": "src/proxy/reverseProxy.js",
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node bin/demo.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
